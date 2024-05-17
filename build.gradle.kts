@@ -24,6 +24,12 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // thymeleaf
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+    // websocket
+    implementation("org.springframework.boot:spring-boot-starter-websocket")
+    // STOMP
+    implementation(group= "org.webjars", name= "stomp-websocket", version= "2.3.3-1")
 }
 
 tasks.withType<KotlinCompile> {
