@@ -33,7 +33,7 @@ class ChatController(
     @MessageMapping("/message")
     fun message(request: ChatRequest) {
         log.debug("message called - {}", request)
-        template.convertAndSend("/sub/chat/${request.roomId}", request.message)
+        template.convertAndSend("/sub/chat/${request.roomId}", request)
     }
 
 }
