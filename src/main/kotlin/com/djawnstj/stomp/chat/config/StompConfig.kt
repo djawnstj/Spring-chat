@@ -1,4 +1,4 @@
-package com.djawnstj.stomp.config;
+package com.djawnstj.stomp.chat.config;
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

@@ -1,4 +1,4 @@
-package com.djawnstj.stomp.controller.dto.request
+package com.djawnstj.stomp.chat.dto.request
 
 import java.time.LocalDateTime
 

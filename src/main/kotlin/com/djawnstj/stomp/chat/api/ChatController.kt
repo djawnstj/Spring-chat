@@ -1,6 +1,6 @@
-package com.djawnstj.stomp.controller
+package com.djawnstj.stomp.chat.api
 
-import com.djawnstj.stomp.controller.dto.request.ChatRequest
+import com.djawnstj.stomp.chat.dto.request.ChatRequest
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.context.event.EventListener
